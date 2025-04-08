@@ -1,0 +1,125 @@
+
+*{
+    margin-inline: 0;
+    margin-block: 0;
+    padding-inline: 0;
+    padding-block:0;
+    box-sizing: border-box;
+  }
+  body, html{
+    block-size: 100vb;
+    inline-size: 100%;
+  font-family: Arial, sans-serif;
+  }
+  header{
+    inline-size: 100%;
+    block-size: 800px;
+    background-color: whitesmoke;
+    padding-block: 50px;
+  }
+  span{
+    font-size: 20px;
+  }
+  .container{
+    background-color: #ffffff;
+    block-size: 550px;
+    inline-size: 700px;
+    margin-inline: 130px;
+  }
+  h1{
+    text-align: center;
+    padding-block-start: 15px;
+    font-size: 50px;
+  }
+  hr {
+    margin-inline: 30px;
+    opacity: 0.3;
+  }
+  button{
+    all: unset;
+  }
+  .nav input{
+    all: unset;
+    inline-size: 580px;
+    block-size: 40px;
+    padding-inline-start: 15px;
+  }
+  .nav{
+  /*  background-color: pink;*/
+    display: flex;
+    inline-size: 650px;
+    block-size: 40px;
+    margin-inline-start: 20px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+  }
+  .add{
+    background-color: #4a90e2;
+    color: white;
+    inline-size: 70px;
+    block-size: 40px;
+    text-align: center;
+  }
+  ul{
+    text-align: center;
+    margin-block-start: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .all{
+    inline-size: 50px;
+    block-size: 40px;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 5px;
+  }
+  .active{
+    inline-size: 70px;
+    block-size: 40px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .complete{
+    inline-size: 90px;
+    block-size: 40px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  li{
+    list-style: none;
+  }
+  .block{
+    background-color: yellow;
+    margin-block-start: 40px;
+  }
+  .tasks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    margin-inline-start: 10px;
+  }
+  .tasks-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+   margin-inline-start: 10px;
+  }
+  .delete{
+    background-color: #ff6b6b;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  .tasks-list span{
+    text-decoration: line-through;
+    color: #999;
+  }
